@@ -1,0 +1,39 @@
+html {
+  font:normal 100%/1.5 sans-serif
+}
+
+body{
+  margin: 0;
+  background-color: #fdf6e3;
+}
+
+header, footer {
+  font-family: serif;
+  font-size: 1.5rem;
+}
+h1 {
+  text-transform: uppercase;
+
+}
+
+main > div{
+  background-color: #eee8d5;
+}
+
+h2 {
+  font-family: serif;
+  color: #93a1a1
+}
+
+dfn {
+  selection;
+  background-color: #b58900;
+}
+.nav
+  ul {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-transform:none;
+  word-wrap: normal;
+
+}
