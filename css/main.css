@@ -19,22 +19,16 @@ header nav {
   font-family: sans-serif;
 }
 
-/*this is the color of the main body*/
+/*this is the color of the main body,*/
 .wrapper {
   background-color: #eee8d5;
 }
 
-
-/*these are the grey headings, but only the 2nd works*/
-.contents .favs .facts .types {
-  color: #93a1a1;
-}
-
-h2 {
+/*this is the grey headers*/
+.wrapper > h2 {
   font-family: serif;
   color: #93a1a1
 }
-
 
 /*this is the main text colour*/
 main p {
@@ -42,15 +36,9 @@ main p {
 }
 
 
-/* these are the yellow paragraph, they only work together for some reason/
-}
-h2 + div {
-  background-color: #b58900;
-}
-.wrapper > .dfn {
-  background-color: #b58900;
-}
+YELLOW
 
+/*this is obviously the footer*/
 footer {
   font-family: serif;
   color: #000
