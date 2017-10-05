@@ -20,25 +20,35 @@ header nav {
   font-family: sans-serif;
 }
 
-/*this is the color of the main body,*/
+/*this is the dark beige color of the main body,*/
 .wrapper {
   background-color: #eee8d5;
 }
 
-/*this is the grey headers*/
+/*these are the lightgray headers*/
 .wrapper > h2 {
   font-family: serif;
   color: #93a1a1
 }
 
-/*this is the main text colour*/
+/*this is the black main text colour*/
 main p {
   color:#000
 }
 
-/*this is the yellow paragraph*/
+/*this is the darkgoldenrod paragraph*/
 .wrapper > .dfn {
   background-color: #b58900;
+}
+
+/* and this is its white strong text*/
+div > strong {
+  color: #fff;
+}
+
+/*these are the olivedrab links, must be adjusted to remove "nohighlight"*/
+li a {
+  background-color: #719e07;
 }
 
 /*this is obviously the footer*/
