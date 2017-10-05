@@ -1,5 +1,6 @@
 html {
   font:normal 100%/1.5 sans-serif
+  font-family: serif;
 }
 
 /*this is the light beige colour of the body*/
@@ -35,8 +36,10 @@ main p {
   color:#000
 }
 
-
-YELLOW
+/*this is the yellow paragraph*/
+.wrapper > .dfn {
+  background-color: #b58900;
+}
 
 /*this is obviously the footer*/
 footer {
