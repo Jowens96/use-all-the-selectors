@@ -26,7 +26,7 @@ header nav {
 }
 
 /*these are the lightgray headers*/
-.wrapper > h2 {
+#contents, #favs, #facts, #types  {
   font-family: serif;
   color: #93a1a1
 }
@@ -46,9 +46,35 @@ div > strong {
   color: #fff;
 }
 
-/*these are the olivedrab links, must be adjusted to remove "nohighlight"*/
-li a {
+/*these are the olivedrab links*/
+li a:not(.no-highlight){
   background-color: #719e07;
+}
+
+/*this is the wikipedia fruit dodgerblue highlight*/
+[rel="external"] {
+  background-color: #2694d8;
+}
+
+/*these are the links under favourite fruit*/
+ol > li:first-child {
+  color: #719e47;
+}
+
+ol > li:last-child {
+  color: #2aa198;
+}
+
+.types > li:nth-child(odd) {
+  background-color: #657ba3;
+}
+
+.types > li:nth-child(even) {
+  background-color: #586e75;
+}
+
+.types > li:nth-of-type(3n) {
+  background-color: #d04b16;
 }
 
 /*this is obviously the footer*/
