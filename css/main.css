@@ -2,22 +2,32 @@ html {
   font:normal 100%/1.5 sans-serif
 }
 
+/*this is the light beige colour of the body*/
 body{
   margin: 0;
   background-color: #fdf6e3;
 }
 
-header, footer {
-  font-family: serif;
-  font-size: 1.5rem;
-}
-h1 {
+/* This is the title fruit factory*/
+.logo {
   text-transform: uppercase;
-
+  font-family: serif;
 }
 
-main > div{
+/*these are the navigation options*/
+header nav {
+  font-family: sans-serif;
+}
+
+/*this is the color of the main body*/
+.wrapper {
   background-color: #eee8d5;
+}
+
+
+/*these are the grey headings, but only the 2nd works*/
+.contents .favs .facts .types {
+  color: #93a1a1;
 }
 
 h2 {
@@ -25,15 +35,23 @@ h2 {
   color: #93a1a1
 }
 
-dfn {
-  selection;
+
+/*this is the main text colour*/
+main p {
+  color:#000
+}
+
+
+/* these are the yellow paragraph, they only work together for some reason/
+}
+h2 + div {
   background-color: #b58900;
 }
-.nav
-  ul {
-  font-family: sans-serif;
-  text-transform: uppercase;
-  text-transform:none;
-  word-wrap: normal;
+.wrapper > .dfn {
+  background-color: #b58900;
+}
 
+footer {
+  font-family: serif;
+  color: #000
 }
